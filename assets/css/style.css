@@ -75,7 +75,7 @@ h6 {
 }
 
 .content h1 {
-    font-size: 32px;
+    font-size: 36px;
     margin: 18px auto;
     line-height: 1;
 }
@@ -89,7 +89,7 @@ h6 {
 .content p {
     color: hsl(228, 12%, 48%);
     line-height: 1.5;
-    margin: 30px auto;
+    margin: 24px auto;
 }
 
 .content .price {
@@ -102,16 +102,15 @@ h6 {
     color: hsl(228, 12%, 48%);
 }
 
-.content a {
-    margin-top: 30px;
+.content button {
+    margin-top: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 10px 20px;
+    padding: 14px 20px;
     border-radius: 8px;
     border: none;
-    text-decoration: none;
     width: 100%;
     color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
@@ -120,7 +119,7 @@ h6 {
     font-weight: bold;
 }
 
-.content a:hover {
+.content button:hover {
     background-color: hsl(158, 36%, 26%);
 }
 
